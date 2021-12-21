@@ -1,0 +1,18 @@
+define( 'AUTH_KEY',         't<mF|}Y]M:Z/NG7,41&svc<:|ohO/SL)?l;+2m|zxufBGb{]5UI:#~zgkx_2w[k!' );
+define( 'SECURE_AUTH_KEY',  'o~E}HyEH,;0-.>JEE{AhIw.:9DtjWr#}$#z6j%w0_H3;m:q64k5FC=%jEI[lk;*G' );
+define( 'LOGGED_IN_KEY',    'xrk7`W+GfA/YJ[6|b>qWqO3yIXW*n) /zcg4-ehR9NF}wpR@@=z:XE>O-e#pCA@A' );
+define( 'NONCE_KEY',        'lY{`2cKntYB}` :UlDn6rj&q0lKd;>4R99p2YaUG[B9]EcchwE&BMcJ++5t=AyEE' );
+define( 'AUTH_SALT',        '(<F1HeBD~!a0X9t%%,E?nd!G8E[J9xn~aHoSZ(%Q+qrgX&EFV^oVXTuYNbJi].b6' );
+define( 'SECURE_AUTH_SALT', 'E7VSTT1HcXS!I7<l^<8LiG7{t05rc]_-)=v?$wmFnP@md_mLjcaADsIaE*LUAAqJ' );
+define( 'LOGGED_IN_SALT',   '?]U3S2|}p~oiyOd, mu+9|y0V.G|AS1K6mAaob`knPQaw`Q@l3(QSNomr;c8lL40' );
+define( 'NONCE_SALT',       'kUhXoAgqE}l]jnQ]]D98g)v&=yjsOR =^xk XC* ;lQ~bt]u4V4XMhI|o31`l@IX' );
+
+$table_prefix = 'wp_';
+
+define( 'WP_DEBUG', false );
+
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', __DIR__ . '/' );
+}
+
+require_once ABSPATH . 'wp-settings.php';

@@ -1,0 +1,4 @@
+/vendor
+/wordpress
+/.env
+/initial/dbimported
