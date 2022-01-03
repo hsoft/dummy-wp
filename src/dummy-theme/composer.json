@@ -1,0 +1,10 @@
+{
+	"name": "local/dummy-theme",
+	"description": "",
+	"license": "proprietary",
+	"type": "wordpress-theme",
+    "version": "1.0",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

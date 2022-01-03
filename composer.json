@@ -8,9 +8,16 @@
                 "wpackagist-plugin/*",
                 "wpackagist-theme/*"
             ]
-        }
+        },
+        { "type": "path", "url": "./src/*", "options": {"symlink": true}}
     ],
     "require": {
-        "johnpbloch/wordpress": "*"
+        "johnpbloch/wordpress": "*",
+        "local/dummy-theme": "*"
+    },
+    "extra": {
+        "installer-paths": {
+            "wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
     }
 }
